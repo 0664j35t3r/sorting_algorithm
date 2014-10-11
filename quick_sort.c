@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/*quick_sort is a divide and conquer algorithm
+/*
+  quick_sort is a divide and conquer algorithm
    - as a first step it divides the array into 2 halfs 
      and then give the smaller elments to the left side and bigger to the right.
    - as the second step it conquers the partitions like step one.
