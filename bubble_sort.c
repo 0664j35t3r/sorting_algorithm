@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-
+/*
+  The bubblesort algorithm is a simple algorithm, whereas the quicksort to the efficient. 
+  We have two iterators, where one is on the second element and the otherone on the first elment. 
+  The values are getting compared and if necessary swapped. If that is done the next values are getting compared 
+  and so on...
+*/
 
 
 //--------------------------------------------------------
@@ -26,7 +31,8 @@ void bubble(int rry[], int size)
 
 //--------------------------------------------------------
 //Function check()
-//prints the test result
+//prints the test results
+//either passed or failed
 void check(int rry[], int size)
 {
   int ok = 1;
