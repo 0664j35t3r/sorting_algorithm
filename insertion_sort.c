@@ -1,7 +1,6 @@
 #include "stdio.h"
 
-
-  int main()
+int main()
 {
   int A[] = { 3, 1, 4, 2, 5 };
  
