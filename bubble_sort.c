@@ -7,7 +7,6 @@
   and so on...
 */
 
-
 //--------------------------------------------------------
 //Function bubble()
 void bubble(int rry[], int size)
@@ -39,7 +38,6 @@ void check(int rry[], int size)
   for (int i = 0; i < size; i++)
   {
     printf("%d", rry[i]);
-
     if (rry[i] != (i + 1))
       ok = 0;
   }
